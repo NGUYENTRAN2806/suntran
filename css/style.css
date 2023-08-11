@@ -1,2 +1,76 @@
+@charset "utf-8";
 /* CSS Document */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;font-size: 16px;color:#777777;margin:0;background-color: #E5E5E5
+}
+.top-bar{
+	width: 100%; height: 50px;line-height: 50px;color:white
+}
+.top-bar a{
+	color:white
+}
+.top-bar a:hover{
+	color:#CAE9FF
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding : 8px 20px;border-radius: 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #000000;background-color:#CAE9FF
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color:#C1ECFF;padding-top: 0;padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item .dropdown-item:hover{
+	background-color: #CAE9FF; color: #000000
+}
+.btn-secondary{
+	background-color: #CAE9FF
+}
+.btn-secondary:hover{
+	background-color: #000000
+}.gach-chan{
+	border-bottom: 2px solid #CAE9FF
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #CAE9FF ; color: #000000
+}
+main{
+	width: 100%; min-height: 700px
+}
+footer .navbar .navbar-nav .nav-item {
+	color:#D1B810
+}
+.bottom-bar{
+	text-align: center;width:100%; height: 50px;line-height: 50px;background-color: #CAE9FF;color:white
+}
+#service a{
+	text-decoration: none;color:#0D0D0D;
+}
+#service a:hover{
+	color:#000000
+}
+#why{
+	width:100%;min-height: 400px;background-image:url("../images/images/why.jpg");background-position: top center;background-repeat: no-repeat;background-size: cover
+}
+#hinh-anh{
+	position: relative
+}
+#hinh-anh .hinh{
+	position: relative
+}
+#hinh-anh .truoc{
+	position: absolute;left:0;top:0;padding:5px;background-color: #EDEDED
+}#hinh-anh .sau{
+	position: absolute;left:50%;top:0;padding:5px; background-color: #EDEDED
+}
